@@ -14,6 +14,12 @@ background-color: black;
     display: flex;
 }
 
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 .circle{
     height: 16px;
     width: 16px;
@@ -88,8 +94,61 @@ background-color: black;
     width: 35px;
 }
 
+.main_container{
+    color: white;
+}
 
+.main_container aside,
+.main_container .partecipants{
+    float: left;
+}
 
+.main_container aside{
+    width: 10%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
 
+.main_container .partecipants{
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+aside h3{
+font-weight: 400;
+}
+
+aside h2{
+    font-size: 4rem;
+}
+
+.right h2{
+    color: #39BBFC;
+}
+
+.img_container img{
+    /* width: 295px;
+    min-height: 166.19px;
+    max-height: 166.19px; */
+    width: 295px;
+    height: 166px;
+}
+
+.img_container{
+    position: relative;
+    padding-top: 5px;
+}
+
+.img_container .name{
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-right: 6px;
+}
 
 
