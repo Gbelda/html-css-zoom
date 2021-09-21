@@ -96,6 +96,7 @@ background-color: black;
 
 .main_container{
     color: white;
+    padding-bottom: 40px;
 }
 
 .main_container aside,
@@ -131,9 +132,6 @@ aside h2{
 }
 
 .img_container img{
-    /* width: 295px;
-    min-height: 166.19px;
-    max-height: 166.19px; */
     width: 295px;
     height: 166px;
 }
@@ -151,4 +149,54 @@ aside h2{
     padding-right: 6px;
 }
 
+footer{
+    background-color: #202223;
+        color: white;
+}
 
+footer .micvid{
+    padding-left: 20px;
+}
+
+.options{
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+footer .button{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.button h6{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.button .arrow{
+    padding-left: 10px;
+}
+.arrow{
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+.micvid div{
+    padding-right: 20px;
+}
+
+.main_options{
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+footer .end{
+    background-color: #4A4B4C;
+}
+
+.end h3{
+    padding: 18px 10px 0px;
+    font-size: 1rem;
+    color: #E25350;
+    font-weight: 400
+}
