@@ -132,8 +132,20 @@ aside h2{
 }
 
 .img_container img{
-    width: 295px;
+    width: 297px;
     height: 166px;
+}
+
+.fas.fa-microphone-alt:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 130%;
+    top: -19%;
+    display: block;
+    background: red;
+    left: 10px;
+    transform: translate(-50%, 0) rotate(45deg);
 }
 
 .img_container{
@@ -144,9 +156,11 @@ aside h2{
 .img_container .name{
     position: absolute;
     bottom: 4px;
-    left: 0px;
+    left: 2px;
     background-color: rgba(0, 0, 0, 0.466);
     padding-right: 6px;
+    padding-left: 4px;
+    padding-top: 3px;
 }
 
 footer{
@@ -200,3 +214,8 @@ footer .end{
     color: #E25350;
     font-weight: 400
 }
+
+.outline{
+    border: 3px solid limegreen;
+}
+
