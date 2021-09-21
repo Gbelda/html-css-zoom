@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+background-color: black;
+}
+
+.flex{
+    display: flex;
+}
+
+.circle{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: #FC615D;
+}
+
+.orange{
+    background-color: #FDBC40;
+}
+
+.green{
+    background-color: #33C749;
+}
+
+.nav{
+    background-color: #DEDFDE;
+    width: 100%;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 0px;
+    color: #666462;
+
+}
+
+.window{
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.room_id{
+    flex-grow: 90;
+    text-align: center;
+    padding-right: 100px;
+}
+
+
+
+
