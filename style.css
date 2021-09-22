@@ -1,3 +1,6 @@
+/***************
+    GENERAL
+***************/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -20,6 +23,10 @@ background-color: black;
     clear: both;
 }
 
+
+/******************
+        NAV
+******************/
 .circle{
     height: 16px;
     width: 16px;
@@ -67,6 +74,11 @@ background-color: black;
     justify-content: flex-end;
     padding-right: 50px;
 }
+
+/********************
+        MAIN
+********************/
+
 
 .speaker_view img{
     vertical-align: top;
@@ -163,6 +175,9 @@ aside h2{
     padding-top: 3px;
 }
 
+/******************
+        FOOTER
+*******************/
 footer{
     background-color: #202223;
         color: white;
